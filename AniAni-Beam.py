@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 # Load the image
-img = cv2.imread('test_image4.jpg')
+img = cv2.imread('test_image1.jpg')
 img = cv2.resize(img, (600, 700))  # Resize the image to 600x700 pixels
 # Convert the image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
